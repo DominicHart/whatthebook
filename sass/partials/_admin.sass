@@ -1,0 +1,206 @@
+.admin
+  padding: 60px 0
+  background: #f7f7f7
+  #admin-content
+    .a-error
+      font-family: $content
+      font-size: 1.6rem
+      b
+        color: red
+      a
+        font-weight: bold
+    #admin-menu
+      list-style-type: none
+      margin: 0
+      padding: 0
+      border-radius: 3px
+      border-top: 1px solid $blue
+      border-left: 1px solid $blue
+      border-right: 1px solid $blue
+      li
+        border-bottom: 1px solid $blue
+        a
+          display: block
+          padding: 12px 40px
+          font-family: 'Open Sans', sans-serif
+          font-size: 1.4rem
+          font-weight: bold
+          color: $blue
+          text-transform: uppercase
+          .fa
+            width: 30px
+          &:hover
+            text-decoration: none
+            background: $blue
+            color: white
+          &.active
+            background: #f1f1f1
+            color: #333
+          &:focus
+            text-decoration: none
+        &.head
+          text-transform: uppercase
+          padding: 15px 40px
+          font-family: 'Open Sans', sans-serif
+          font-size: 3rem
+          font-weight: bold
+          color: white
+          background: $blue
+          margin: 0
+    .content
+      border-radius: 3px
+      display: none
+      overflow: hidden
+      background: white
+      border: 1px solid $blue
+      h2
+        text-transform: uppercase
+        font-family: 'Open Sans', sans-serif
+        font-size: 3rem
+        font-weight: bold
+        text-align: center
+        margin: 0
+        display: block
+        background: $blue
+        padding: 20px 0
+        color: white
+      form
+        .form-group
+          margin: 20px 0 0 0
+          label
+            font-family: 'Open Sans', sans-serif
+            font-size: 1.6rem
+            font-weight: bold
+          input.form-control, select.form-control
+            font-family: $content
+            font-size: 1.6rem
+            font-weight: 300
+            box-shadow: none
+            padding: 12px
+            height: 40px
+            border-radius: 3px
+          textarea.form-control
+            font-family: $content
+            font-size: 1.6rem
+            font-weight: 300
+            box-shadow: none
+            padding: 12px
+            border-radius: 3px
+            resize: none
+          #countleft
+            font-family: $content
+            font-size: 1.6rem
+            font-weight: 300
+            margin-top: 10px
+            color: red
+          input[type=file]
+            padding: 8px 12px !important
+          select
+            padding: 0 12px !important
+          option
+            font-family: $content
+            font-size: 1.6rem
+            font-weight: 300
+        button
+          width: 100%
+          margin: 10px 0
+          background: $blue
+          color: white
+          font-family: 'Open Sans', sans-serif
+          font-size: 1.6rem
+          font-weight: bold
+          height: 40px
+          border: 1px solid $blue
+          border-radius: 3px
+          &:hover
+            border-color: #333
+            background: white
+            color: #333
+      .table-responsive
+        table.admin-table
+          margin: 0
+          thead
+            border: none
+            margin: 0
+          tbody
+            border: none
+          th, td
+            width: 30%
+            padding: 0 20px
+            border-color: #f1f1f1
+            line-height: 30px
+          th
+            border-top: none
+            margin-top: 0
+            padding-top: 0
+            font-family: 'Open Sans', sans-serif
+            font-weight: bold
+            font-size: 1.3rem
+          td
+            font-family: $content
+            font-size: 1.3rem
+            button
+              background: none
+              border: none
+              margin: 0
+              color: #333
+              height: 20px
+              text-align: left
+        .table-striped
+          >tbody
+            >tr:nth-child(odd)
+              >th
+                background: #f1f1f1
+              >td
+                background: #f1f1f1
+      .table-mobile
+        display: none
+        table.admin-table
+          margin: 0 0 0 0
+          th, td
+            padding: 0 30px
+            border-color: #f1f1f1
+            line-height: 45px
+            h4
+              display: inline
+              text-align: left
+              font-family: 'Open Sans', sans-serif
+              font-weight: bold
+              font-size: 1.6rem
+              margin: 0
+              &.title
+                color: #333
+            p
+              display: inline
+              float: right !important
+              font-family: $content
+              font-weight: 300
+              margin: 0
+              font-size: 1.6rem
+              &.title
+                color: #333
+            form
+              display: inline
+            button
+              width: 30px
+              background: none
+              border: none
+              color: #333
+              float: right !important
+          th
+            background: #f1f1f1
+      &.active
+        display: block
+@media only screen and (max-width: 1024px)
+  .admin
+    #admin-content
+      .content
+        .table-responsive
+          display: none
+        .table-mobile
+          display: block
+@media only screen and (max-width: 768px)
+  .admin
+    #admin-content
+      .content
+        margin-top: 20px

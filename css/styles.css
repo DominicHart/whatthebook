@@ -1,0 +1,1489 @@
+header {
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 30px 0;
+}
+header .header ul {
+  display: inline-block;
+  margin: 40px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+header .header ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #6093CA;
+}
+header .header ul li a .fa {
+  padding-right: 12px;
+}
+header .header img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.register {
+  height: 100vh;
+  background: #6093CA;
+}
+.register form {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 35%;
+  background: white;
+  padding: 25px 50px;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
+}
+.register form h2 {
+  margin: 0 0 20px 0;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.register form .regerror {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.register form .tabs {
+  margin-top: 20px;
+  text-align: center;
+}
+.register form .tabs .nav-pills {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.register form .tabs .nav-pills > li {
+  width: 50%;
+  margin: 0;
+}
+.register form .tabs .nav-pills > li > a {
+  height: 50px;
+  border-radius: 0;
+  padding: 13px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: 1px solid #6093CA;
+}
+.register form .tabs .nav-pills > li > a .fa {
+  padding-right: 8px;
+}
+.register form .tabs .nav-pills > li.active a {
+  background: #6093CA;
+}
+.register form .tabs .nav-pills > li:hover a {
+  background: #3b6797;
+  color: white;
+}
+.register form .account-yes {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+.register form .account-yes a {
+  color: #6093CA;
+}
+.register form .form-control {
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  border-radius: 0;
+  background: #f1f1f1;
+  padding-left: 20px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.register form button {
+  height: 50px;
+  width: 100%;
+  background: #6093CA;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.login {
+  overflow: hidden;
+  height: 100vh;
+  background: #6093CA;
+}
+.login form {
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 30%;
+  background: white;
+  padding: 25px 50px;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
+}
+.login form h2 {
+  margin: 0 0 20px 0;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.login form .icon-container {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+.login form .icon-container .fa {
+  position: relative;
+  top: 50%;
+  font-size: 5rem;
+  transform: translateY(-50%);
+}
+.login form .log-error {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.login form .log-error b {
+  color: red;
+}
+.login form .log-error a {
+  font-weight: bold;
+}
+.login form .account-no {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+.login form .form-control {
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  border-radius: 0;
+  background: #f1f1f1;
+  padding-left: 20px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.login form button {
+  height: 50px;
+  width: 100%;
+  background: #6093CA;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1366px) {
+  .login form {
+    width: 35%;
+  }
+}
+.account {
+  padding: 50px 0;
+  background: #f7f7f7;
+}
+.account h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.account h2:after {
+  content: "";
+  background: #ddd;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 60px;
+}
+.account .tabs {
+  margin-top: 80px;
+}
+.account .tabs .c-error {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.account .tabs .c-error b {
+  color: red;
+}
+.account .tabs .c-error a {
+  font-weight: bold;
+}
+.account .tabs .nav-pills > li {
+  margin: 0;
+}
+.account .tabs .nav-pills > li > a {
+  border-radius: 0;
+  padding: 10px 20px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.account .tabs .nav-pills > li > a .fa {
+  padding-right: 8px;
+}
+.account .tabs .nav-pills > li.active a {
+  background: #6093CA;
+}
+.account .tabs .nav-pills > li:hover a {
+  background: #3b6797;
+  color: white;
+}
+.account .tabs .tab-content {
+  background: #6093CA;
+  padding: 20px 40px;
+  color: white;
+}
+.account .tabs .tab-content h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.account .tabs .tab-content form.edit-card, .account .tabs .tab-content form.delete-card {
+  padding-bottom: 0;
+}
+.account .tabs .tab-content form .form-control {
+  border-radius: 0;
+  height: 45px;
+  box-shadow: none;
+  background: white;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border: none;
+  color: black;
+}
+.account .tabs .tab-content form .non-edit {
+  background: #ddd;
+}
+.account .tabs .tab-content form label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.account .tabs .tab-content form label.expLabel {
+  display: block;
+}
+.account .tabs .tab-content form label .fa {
+  width: 27px;
+}
+.account .tabs .tab-content form p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.account .tabs .tab-content form select option {
+  font-weight: 300;
+}
+.account .tabs .tab-content form button.submit {
+  margin-top: 20px;
+  width: 100%;
+  background: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #6093CA;
+  height: 45px;
+  color: #6093CA;
+}
+.account .tabs .tab-content form button.submit:hover {
+  background: #6093CA;
+  border-color: white;
+  color: white;
+  -moz-transition: background 0.4s linear 0s, color 0.4s linear 0s;
+  -webkit-transition: background 0.4s linear 0s, color 0.4s linear 0s;
+  -o-transition: background 0.4s linear 0s, color 0.4s linear 0s;
+  transition: background 0.4s linear 0s, color 0.4s linear 0s;
+}
+.account .tabs .tab-content .table {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background: white;
+  color: black;
+  margin-top: 15px;
+  border-top: none;
+}
+.account .tabs .tab-content .table tr {
+  border: 1px solid white;
+}
+.account .tabs .tab-content .table tr th {
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  border-top: none;
+}
+.account .tabs .tab-content .table tr td {
+  vertical-align: middle;
+  padding: 10px;
+  border-color: #6093CA;
+  font-size: 1.4rem;
+}
+.account .tabs .tab-content .table tr button {
+  border: none;
+  background: transparent;
+  color: black;
+  padding: 0 5px 0 0;
+}
+.account .tabs .tab-content .table tr button .fa {
+  padding-right: 5px;
+}
+
+div.expiry select.expiry {
+  display: inline-block;
+  width: 49% !important;
+  float: left;
+  margin-bottom: 10px;
+}
+div.expiry select.expiry:nth-child(2n+1) {
+  margin-left: 2%;
+}
+
+#editcard, #deletecard, #edituser, #deleteuser, #editgenre, #deletegenre, #editsubgenre, #deletesubgenre, #editpublisher, #deletepublisher, #editbook, #deletebook, #deleteorder {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#editcard .edit-container, #editcard .delete-container, #deletecard .edit-container, #deletecard .delete-container, #edituser .edit-container, #edituser .delete-container, #deleteuser .edit-container, #deleteuser .delete-container, #editgenre .edit-container, #editgenre .delete-container, #deletegenre .edit-container, #deletegenre .delete-container, #editsubgenre .edit-container, #editsubgenre .delete-container, #deletesubgenre .edit-container, #deletesubgenre .delete-container, #editpublisher .edit-container, #editpublisher .delete-container, #deletepublisher .edit-container, #deletepublisher .delete-container, #editbook .edit-container, #editbook .delete-container, #deletebook .edit-container, #deletebook .delete-container, #deleteorder .edit-container, #deleteorder .delete-container {
+  overflow: hidden;
+  width: 500px;
+  position: relative;
+  z-index: 999;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  background: white;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+}
+#editcard .edit-container h2, #editcard .delete-container h2, #deletecard .edit-container h2, #deletecard .delete-container h2, #edituser .edit-container h2, #edituser .delete-container h2, #deleteuser .edit-container h2, #deleteuser .delete-container h2, #editgenre .edit-container h2, #editgenre .delete-container h2, #deletegenre .edit-container h2, #deletegenre .delete-container h2, #editsubgenre .edit-container h2, #editsubgenre .delete-container h2, #deletesubgenre .edit-container h2, #deletesubgenre .delete-container h2, #editpublisher .edit-container h2, #editpublisher .delete-container h2, #deletepublisher .edit-container h2, #deletepublisher .delete-container h2, #editbook .edit-container h2, #editbook .delete-container h2, #deletebook .edit-container h2, #deletebook .delete-container h2, #deleteorder .edit-container h2, #deleteorder .delete-container h2 {
+  margin-top: 0;
+}
+#editcard .edit-container .dialog-header, #editcard .delete-container .dialog-header, #deletecard .edit-container .dialog-header, #deletecard .delete-container .dialog-header, #edituser .edit-container .dialog-header, #edituser .delete-container .dialog-header, #deleteuser .edit-container .dialog-header, #deleteuser .delete-container .dialog-header, #editgenre .edit-container .dialog-header, #editgenre .delete-container .dialog-header, #deletegenre .edit-container .dialog-header, #deletegenre .delete-container .dialog-header, #editsubgenre .edit-container .dialog-header, #editsubgenre .delete-container .dialog-header, #deletesubgenre .edit-container .dialog-header, #deletesubgenre .delete-container .dialog-header, #editpublisher .edit-container .dialog-header, #editpublisher .delete-container .dialog-header, #deletepublisher .edit-container .dialog-header, #deletepublisher .delete-container .dialog-header, #editbook .edit-container .dialog-header, #editbook .delete-container .dialog-header, #deletebook .edit-container .dialog-header, #deletebook .delete-container .dialog-header, #deleteorder .edit-container .dialog-header, #deleteorder .delete-container .dialog-header {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  padding: 0 30px 5px 30px;
+}
+#editcard .edit-container .dialog-header h3, #editcard .delete-container .dialog-header h3, #deletecard .edit-container .dialog-header h3, #deletecard .delete-container .dialog-header h3, #edituser .edit-container .dialog-header h3, #edituser .delete-container .dialog-header h3, #deleteuser .edit-container .dialog-header h3, #deleteuser .delete-container .dialog-header h3, #editgenre .edit-container .dialog-header h3, #editgenre .delete-container .dialog-header h3, #deletegenre .edit-container .dialog-header h3, #deletegenre .delete-container .dialog-header h3, #editsubgenre .edit-container .dialog-header h3, #editsubgenre .delete-container .dialog-header h3, #deletesubgenre .edit-container .dialog-header h3, #deletesubgenre .delete-container .dialog-header h3, #editpublisher .edit-container .dialog-header h3, #editpublisher .delete-container .dialog-header h3, #deletepublisher .edit-container .dialog-header h3, #deletepublisher .delete-container .dialog-header h3, #editbook .edit-container .dialog-header h3, #editbook .delete-container .dialog-header h3, #deletebook .edit-container .dialog-header h3, #deletebook .delete-container .dialog-header h3, #deleteorder .edit-container .dialog-header h3, #deleteorder .delete-container .dialog-header h3 {
+  color: #333;
+  margin: 0;
+  font-size: 2rem;
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+#editcard .edit-container .col-md-12, #editcard .delete-container .col-md-12, #deletecard .edit-container .col-md-12, #deletecard .delete-container .col-md-12, #edituser .edit-container .col-md-12, #edituser .delete-container .col-md-12, #deleteuser .edit-container .col-md-12, #deleteuser .delete-container .col-md-12, #editgenre .edit-container .col-md-12, #editgenre .delete-container .col-md-12, #deletegenre .edit-container .col-md-12, #deletegenre .delete-container .col-md-12, #editsubgenre .edit-container .col-md-12, #editsubgenre .delete-container .col-md-12, #deletesubgenre .edit-container .col-md-12, #deletesubgenre .delete-container .col-md-12, #editpublisher .edit-container .col-md-12, #editpublisher .delete-container .col-md-12, #deletepublisher .edit-container .col-md-12, #deletepublisher .delete-container .col-md-12, #editbook .edit-container .col-md-12, #editbook .delete-container .col-md-12, #deletebook .edit-container .col-md-12, #deletebook .delete-container .col-md-12, #deleteorder .edit-container .col-md-12, #deleteorder .delete-container .col-md-12 {
+  padding: 0;
+}
+#editcard .edit-container .col-md-6, #editcard .delete-container .col-md-6, #deletecard .edit-container .col-md-6, #deletecard .delete-container .col-md-6, #edituser .edit-container .col-md-6, #edituser .delete-container .col-md-6, #deleteuser .edit-container .col-md-6, #deleteuser .delete-container .col-md-6, #editgenre .edit-container .col-md-6, #editgenre .delete-container .col-md-6, #deletegenre .edit-container .col-md-6, #deletegenre .delete-container .col-md-6, #editsubgenre .edit-container .col-md-6, #editsubgenre .delete-container .col-md-6, #deletesubgenre .edit-container .col-md-6, #deletesubgenre .delete-container .col-md-6, #editpublisher .edit-container .col-md-6, #editpublisher .delete-container .col-md-6, #deletepublisher .edit-container .col-md-6, #deletepublisher .delete-container .col-md-6, #editbook .edit-container .col-md-6, #editbook .delete-container .col-md-6, #deletebook .edit-container .col-md-6, #deletebook .delete-container .col-md-6, #deleteorder .edit-container .col-md-6, #deleteorder .delete-container .col-md-6 {
+  padding: 0;
+}
+#editcard .edit-container div.second, #editcard .delete-container div.second, #deletecard .edit-container div.second, #deletecard .delete-container div.second, #edituser .edit-container div.second, #edituser .delete-container div.second, #deleteuser .edit-container div.second, #deleteuser .delete-container div.second, #editgenre .edit-container div.second, #editgenre .delete-container div.second, #deletegenre .edit-container div.second, #deletegenre .delete-container div.second, #editsubgenre .edit-container div.second, #editsubgenre .delete-container div.second, #deletesubgenre .edit-container div.second, #deletesubgenre .delete-container div.second, #editpublisher .edit-container div.second, #editpublisher .delete-container div.second, #deletepublisher .edit-container div.second, #deletepublisher .delete-container div.second, #editbook .edit-container div.second, #editbook .delete-container div.second, #deletebook .edit-container div.second, #deletebook .delete-container div.second, #deleteorder .edit-container div.second, #deleteorder .delete-container div.second {
+  padding-left: 10px;
+}
+#editcard .edit-container .dialog-content, #editcard .delete-container .dialog-content, #deletecard .edit-container .dialog-content, #deletecard .delete-container .dialog-content, #edituser .edit-container .dialog-content, #edituser .delete-container .dialog-content, #deleteuser .edit-container .dialog-content, #deleteuser .delete-container .dialog-content, #editgenre .edit-container .dialog-content, #editgenre .delete-container .dialog-content, #deletegenre .edit-container .dialog-content, #deletegenre .delete-container .dialog-content, #editsubgenre .edit-container .dialog-content, #editsubgenre .delete-container .dialog-content, #deletesubgenre .edit-container .dialog-content, #deletesubgenre .delete-container .dialog-content, #editpublisher .edit-container .dialog-content, #editpublisher .delete-container .dialog-content, #deletepublisher .edit-container .dialog-content, #deletepublisher .delete-container .dialog-content, #editbook .edit-container .dialog-content, #editbook .delete-container .dialog-content, #deletebook .edit-container .dialog-content, #deletebook .delete-container .dialog-content, #deleteorder .edit-container .dialog-content, #deleteorder .delete-container .dialog-content {
+  clear: both;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+#editcard .edit-container .dialog-content p, #editcard .delete-container .dialog-content p, #deletecard .edit-container .dialog-content p, #deletecard .delete-container .dialog-content p, #edituser .edit-container .dialog-content p, #edituser .delete-container .dialog-content p, #deleteuser .edit-container .dialog-content p, #deleteuser .delete-container .dialog-content p, #editgenre .edit-container .dialog-content p, #editgenre .delete-container .dialog-content p, #deletegenre .edit-container .dialog-content p, #deletegenre .delete-container .dialog-content p, #editsubgenre .edit-container .dialog-content p, #editsubgenre .delete-container .dialog-content p, #deletesubgenre .edit-container .dialog-content p, #deletesubgenre .delete-container .dialog-content p, #editpublisher .edit-container .dialog-content p, #editpublisher .delete-container .dialog-content p, #deletepublisher .edit-container .dialog-content p, #deletepublisher .delete-container .dialog-content p, #editbook .edit-container .dialog-content p, #editbook .delete-container .dialog-content p, #deletebook .edit-container .dialog-content p, #deletebook .delete-container .dialog-content p, #deleteorder .edit-container .dialog-content p, #deleteorder .delete-container .dialog-content p {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin: 0;
+}
+#editcard .edit-container .dialog-content label, #editcard .delete-container .dialog-content label, #deletecard .edit-container .dialog-content label, #deletecard .delete-container .dialog-content label, #edituser .edit-container .dialog-content label, #edituser .delete-container .dialog-content label, #deleteuser .edit-container .dialog-content label, #deleteuser .delete-container .dialog-content label, #editgenre .edit-container .dialog-content label, #editgenre .delete-container .dialog-content label, #deletegenre .edit-container .dialog-content label, #deletegenre .delete-container .dialog-content label, #editsubgenre .edit-container .dialog-content label, #editsubgenre .delete-container .dialog-content label, #deletesubgenre .edit-container .dialog-content label, #deletesubgenre .delete-container .dialog-content label, #editpublisher .edit-container .dialog-content label, #editpublisher .delete-container .dialog-content label, #deletepublisher .edit-container .dialog-content label, #deletepublisher .delete-container .dialog-content label, #editbook .edit-container .dialog-content label, #editbook .delete-container .dialog-content label, #deletebook .edit-container .dialog-content label, #deletebook .delete-container .dialog-content label, #deleteorder .edit-container .dialog-content label, #deleteorder .delete-container .dialog-content label {
+  display: none;
+}
+#editcard .edit-container .dialog-content label.e-user, #editcard .delete-container .dialog-content label.e-user, #deletecard .edit-container .dialog-content label.e-user, #deletecard .delete-container .dialog-content label.e-user, #edituser .edit-container .dialog-content label.e-user, #edituser .delete-container .dialog-content label.e-user, #deleteuser .edit-container .dialog-content label.e-user, #deleteuser .delete-container .dialog-content label.e-user, #editgenre .edit-container .dialog-content label.e-user, #editgenre .delete-container .dialog-content label.e-user, #deletegenre .edit-container .dialog-content label.e-user, #deletegenre .delete-container .dialog-content label.e-user, #editsubgenre .edit-container .dialog-content label.e-user, #editsubgenre .delete-container .dialog-content label.e-user, #deletesubgenre .edit-container .dialog-content label.e-user, #deletesubgenre .delete-container .dialog-content label.e-user, #editpublisher .edit-container .dialog-content label.e-user, #editpublisher .delete-container .dialog-content label.e-user, #deletepublisher .edit-container .dialog-content label.e-user, #deletepublisher .delete-container .dialog-content label.e-user, #editbook .edit-container .dialog-content label.e-user, #editbook .delete-container .dialog-content label.e-user, #deletebook .edit-container .dialog-content label.e-user, #deletebook .delete-container .dialog-content label.e-user, #deleteorder .edit-container .dialog-content label.e-user, #deleteorder .delete-container .dialog-content label.e-user {
+  display: block;
+  text-align: left !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+#editcard .edit-container .dialog-content input.form-control, #editcard .edit-container .dialog-content select.form-control, #editcard .delete-container .dialog-content input.form-control, #editcard .delete-container .dialog-content select.form-control, #deletecard .edit-container .dialog-content input.form-control, #deletecard .edit-container .dialog-content select.form-control, #deletecard .delete-container .dialog-content input.form-control, #deletecard .delete-container .dialog-content select.form-control, #edituser .edit-container .dialog-content input.form-control, #edituser .edit-container .dialog-content select.form-control, #edituser .delete-container .dialog-content input.form-control, #edituser .delete-container .dialog-content select.form-control, #deleteuser .edit-container .dialog-content input.form-control, #deleteuser .edit-container .dialog-content select.form-control, #deleteuser .delete-container .dialog-content input.form-control, #deleteuser .delete-container .dialog-content select.form-control, #editgenre .edit-container .dialog-content input.form-control, #editgenre .edit-container .dialog-content select.form-control, #editgenre .delete-container .dialog-content input.form-control, #editgenre .delete-container .dialog-content select.form-control, #deletegenre .edit-container .dialog-content input.form-control, #deletegenre .edit-container .dialog-content select.form-control, #deletegenre .delete-container .dialog-content input.form-control, #deletegenre .delete-container .dialog-content select.form-control, #editsubgenre .edit-container .dialog-content input.form-control, #editsubgenre .edit-container .dialog-content select.form-control, #editsubgenre .delete-container .dialog-content input.form-control, #editsubgenre .delete-container .dialog-content select.form-control, #deletesubgenre .edit-container .dialog-content input.form-control, #deletesubgenre .edit-container .dialog-content select.form-control, #deletesubgenre .delete-container .dialog-content input.form-control, #deletesubgenre .delete-container .dialog-content select.form-control, #editpublisher .edit-container .dialog-content input.form-control, #editpublisher .edit-container .dialog-content select.form-control, #editpublisher .delete-container .dialog-content input.form-control, #editpublisher .delete-container .dialog-content select.form-control, #deletepublisher .edit-container .dialog-content input.form-control, #deletepublisher .edit-container .dialog-content select.form-control, #deletepublisher .delete-container .dialog-content input.form-control, #deletepublisher .delete-container .dialog-content select.form-control, #editbook .edit-container .dialog-content input.form-control, #editbook .edit-container .dialog-content select.form-control, #editbook .delete-container .dialog-content input.form-control, #editbook .delete-container .dialog-content select.form-control, #deletebook .edit-container .dialog-content input.form-control, #deletebook .edit-container .dialog-content select.form-control, #deletebook .delete-container .dialog-content input.form-control, #deletebook .delete-container .dialog-content select.form-control, #deleteorder .edit-container .dialog-content input.form-control, #deleteorder .edit-container .dialog-content select.form-control, #deleteorder .delete-container .dialog-content input.form-control, #deleteorder .delete-container .dialog-content select.form-control {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  height: 30px;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  background: #f1f1f1;
+  padding-left: 20px;
+  color: black;
+}
+#editcard .edit-container .dialog-content textarea, #editcard .delete-container .dialog-content textarea, #deletecard .edit-container .dialog-content textarea, #deletecard .delete-container .dialog-content textarea, #edituser .edit-container .dialog-content textarea, #edituser .delete-container .dialog-content textarea, #deleteuser .edit-container .dialog-content textarea, #deleteuser .delete-container .dialog-content textarea, #editgenre .edit-container .dialog-content textarea, #editgenre .delete-container .dialog-content textarea, #deletegenre .edit-container .dialog-content textarea, #deletegenre .delete-container .dialog-content textarea, #editsubgenre .edit-container .dialog-content textarea, #editsubgenre .delete-container .dialog-content textarea, #deletesubgenre .edit-container .dialog-content textarea, #deletesubgenre .delete-container .dialog-content textarea, #editpublisher .edit-container .dialog-content textarea, #editpublisher .delete-container .dialog-content textarea, #deletepublisher .edit-container .dialog-content textarea, #deletepublisher .delete-container .dialog-content textarea, #editbook .edit-container .dialog-content textarea, #editbook .delete-container .dialog-content textarea, #deletebook .edit-container .dialog-content textarea, #deletebook .delete-container .dialog-content textarea, #deleteorder .edit-container .dialog-content textarea, #deleteorder .delete-container .dialog-content textarea {
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  background: #f1f1f1;
+  padding-left: 20px;
+  color: black;
+}
+#editcard .edit-container .dialog-buttons, #editcard .delete-container .dialog-buttons, #deletecard .edit-container .dialog-buttons, #deletecard .delete-container .dialog-buttons, #edituser .edit-container .dialog-buttons, #edituser .delete-container .dialog-buttons, #deleteuser .edit-container .dialog-buttons, #deleteuser .delete-container .dialog-buttons, #editgenre .edit-container .dialog-buttons, #editgenre .delete-container .dialog-buttons, #deletegenre .edit-container .dialog-buttons, #deletegenre .delete-container .dialog-buttons, #editsubgenre .edit-container .dialog-buttons, #editsubgenre .delete-container .dialog-buttons, #deletesubgenre .edit-container .dialog-buttons, #deletesubgenre .delete-container .dialog-buttons, #editpublisher .edit-container .dialog-buttons, #editpublisher .delete-container .dialog-buttons, #deletepublisher .edit-container .dialog-buttons, #deletepublisher .delete-container .dialog-buttons, #editbook .edit-container .dialog-buttons, #editbook .delete-container .dialog-buttons, #deletebook .edit-container .dialog-buttons, #deletebook .delete-container .dialog-buttons, #deleteorder .edit-container .dialog-buttons, #deleteorder .delete-container .dialog-buttons {
+  overflow: hidden;
+  text-align: center;
+  padding: 15px 30px;
+}
+#editcard .edit-container .dialog-buttons button.delete-yes, #editcard .edit-container .dialog-buttons button.update-yes, #editcard .delete-container .dialog-buttons button.delete-yes, #editcard .delete-container .dialog-buttons button.update-yes, #deletecard .edit-container .dialog-buttons button.delete-yes, #deletecard .edit-container .dialog-buttons button.update-yes, #deletecard .delete-container .dialog-buttons button.delete-yes, #deletecard .delete-container .dialog-buttons button.update-yes, #edituser .edit-container .dialog-buttons button.delete-yes, #edituser .edit-container .dialog-buttons button.update-yes, #edituser .delete-container .dialog-buttons button.delete-yes, #edituser .delete-container .dialog-buttons button.update-yes, #deleteuser .edit-container .dialog-buttons button.delete-yes, #deleteuser .edit-container .dialog-buttons button.update-yes, #deleteuser .delete-container .dialog-buttons button.delete-yes, #deleteuser .delete-container .dialog-buttons button.update-yes, #editgenre .edit-container .dialog-buttons button.delete-yes, #editgenre .edit-container .dialog-buttons button.update-yes, #editgenre .delete-container .dialog-buttons button.delete-yes, #editgenre .delete-container .dialog-buttons button.update-yes, #deletegenre .edit-container .dialog-buttons button.delete-yes, #deletegenre .edit-container .dialog-buttons button.update-yes, #deletegenre .delete-container .dialog-buttons button.delete-yes, #deletegenre .delete-container .dialog-buttons button.update-yes, #editsubgenre .edit-container .dialog-buttons button.delete-yes, #editsubgenre .edit-container .dialog-buttons button.update-yes, #editsubgenre .delete-container .dialog-buttons button.delete-yes, #editsubgenre .delete-container .dialog-buttons button.update-yes, #deletesubgenre .edit-container .dialog-buttons button.delete-yes, #deletesubgenre .edit-container .dialog-buttons button.update-yes, #deletesubgenre .delete-container .dialog-buttons button.delete-yes, #deletesubgenre .delete-container .dialog-buttons button.update-yes, #editpublisher .edit-container .dialog-buttons button.delete-yes, #editpublisher .edit-container .dialog-buttons button.update-yes, #editpublisher .delete-container .dialog-buttons button.delete-yes, #editpublisher .delete-container .dialog-buttons button.update-yes, #deletepublisher .edit-container .dialog-buttons button.delete-yes, #deletepublisher .edit-container .dialog-buttons button.update-yes, #deletepublisher .delete-container .dialog-buttons button.delete-yes, #deletepublisher .delete-container .dialog-buttons button.update-yes, #editbook .edit-container .dialog-buttons button.delete-yes, #editbook .edit-container .dialog-buttons button.update-yes, #editbook .delete-container .dialog-buttons button.delete-yes, #editbook .delete-container .dialog-buttons button.update-yes, #deletebook .edit-container .dialog-buttons button.delete-yes, #deletebook .edit-container .dialog-buttons button.update-yes, #deletebook .delete-container .dialog-buttons button.delete-yes, #deletebook .delete-container .dialog-buttons button.update-yes, #deleteorder .edit-container .dialog-buttons button.delete-yes, #deleteorder .edit-container .dialog-buttons button.update-yes, #deleteorder .delete-container .dialog-buttons button.delete-yes, #deleteorder .delete-container .dialog-buttons button.update-yes {
+  width: 125px;
+  background: #6093CA;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: none;
+  color: white;
+  box-shadow: none;
+}
+#editcard .edit-container .dialog-buttons button.delete-yes:hover, #editcard .edit-container .dialog-buttons button.update-yes:hover, #editcard .delete-container .dialog-buttons button.delete-yes:hover, #editcard .delete-container .dialog-buttons button.update-yes:hover, #deletecard .edit-container .dialog-buttons button.delete-yes:hover, #deletecard .edit-container .dialog-buttons button.update-yes:hover, #deletecard .delete-container .dialog-buttons button.delete-yes:hover, #deletecard .delete-container .dialog-buttons button.update-yes:hover, #edituser .edit-container .dialog-buttons button.delete-yes:hover, #edituser .edit-container .dialog-buttons button.update-yes:hover, #edituser .delete-container .dialog-buttons button.delete-yes:hover, #edituser .delete-container .dialog-buttons button.update-yes:hover, #deleteuser .edit-container .dialog-buttons button.delete-yes:hover, #deleteuser .edit-container .dialog-buttons button.update-yes:hover, #deleteuser .delete-container .dialog-buttons button.delete-yes:hover, #deleteuser .delete-container .dialog-buttons button.update-yes:hover, #editgenre .edit-container .dialog-buttons button.delete-yes:hover, #editgenre .edit-container .dialog-buttons button.update-yes:hover, #editgenre .delete-container .dialog-buttons button.delete-yes:hover, #editgenre .delete-container .dialog-buttons button.update-yes:hover, #deletegenre .edit-container .dialog-buttons button.delete-yes:hover, #deletegenre .edit-container .dialog-buttons button.update-yes:hover, #deletegenre .delete-container .dialog-buttons button.delete-yes:hover, #deletegenre .delete-container .dialog-buttons button.update-yes:hover, #editsubgenre .edit-container .dialog-buttons button.delete-yes:hover, #editsubgenre .edit-container .dialog-buttons button.update-yes:hover, #editsubgenre .delete-container .dialog-buttons button.delete-yes:hover, #editsubgenre .delete-container .dialog-buttons button.update-yes:hover, #deletesubgenre .edit-container .dialog-buttons button.delete-yes:hover, #deletesubgenre .edit-container .dialog-buttons button.update-yes:hover, #deletesubgenre .delete-container .dialog-buttons button.delete-yes:hover, #deletesubgenre .delete-container .dialog-buttons button.update-yes:hover, #editpublisher .edit-container .dialog-buttons button.delete-yes:hover, #editpublisher .edit-container .dialog-buttons button.update-yes:hover, #editpublisher .delete-container .dialog-buttons button.delete-yes:hover, #editpublisher .delete-container .dialog-buttons button.update-yes:hover, #deletepublisher .edit-container .dialog-buttons button.delete-yes:hover, #deletepublisher .edit-container .dialog-buttons button.update-yes:hover, #deletepublisher .delete-container .dialog-buttons button.delete-yes:hover, #deletepublisher .delete-container .dialog-buttons button.update-yes:hover, #editbook .edit-container .dialog-buttons button.delete-yes:hover, #editbook .edit-container .dialog-buttons button.update-yes:hover, #editbook .delete-container .dialog-buttons button.delete-yes:hover, #editbook .delete-container .dialog-buttons button.update-yes:hover, #deletebook .edit-container .dialog-buttons button.delete-yes:hover, #deletebook .edit-container .dialog-buttons button.update-yes:hover, #deletebook .delete-container .dialog-buttons button.delete-yes:hover, #deletebook .delete-container .dialog-buttons button.update-yes:hover, #deleteorder .edit-container .dialog-buttons button.delete-yes:hover, #deleteorder .edit-container .dialog-buttons button.update-yes:hover, #deleteorder .delete-container .dialog-buttons button.delete-yes:hover, #deleteorder .delete-container .dialog-buttons button.update-yes:hover {
+  background: #3b6797;
+}
+#editcard .edit-container .dialog-buttons button.delete-no, #editcard .edit-container .dialog-buttons button.update-no, #editcard .delete-container .dialog-buttons button.delete-no, #editcard .delete-container .dialog-buttons button.update-no, #deletecard .edit-container .dialog-buttons button.delete-no, #deletecard .edit-container .dialog-buttons button.update-no, #deletecard .delete-container .dialog-buttons button.delete-no, #deletecard .delete-container .dialog-buttons button.update-no, #edituser .edit-container .dialog-buttons button.delete-no, #edituser .edit-container .dialog-buttons button.update-no, #edituser .delete-container .dialog-buttons button.delete-no, #edituser .delete-container .dialog-buttons button.update-no, #deleteuser .edit-container .dialog-buttons button.delete-no, #deleteuser .edit-container .dialog-buttons button.update-no, #deleteuser .delete-container .dialog-buttons button.delete-no, #deleteuser .delete-container .dialog-buttons button.update-no, #editgenre .edit-container .dialog-buttons button.delete-no, #editgenre .edit-container .dialog-buttons button.update-no, #editgenre .delete-container .dialog-buttons button.delete-no, #editgenre .delete-container .dialog-buttons button.update-no, #deletegenre .edit-container .dialog-buttons button.delete-no, #deletegenre .edit-container .dialog-buttons button.update-no, #deletegenre .delete-container .dialog-buttons button.delete-no, #deletegenre .delete-container .dialog-buttons button.update-no, #editsubgenre .edit-container .dialog-buttons button.delete-no, #editsubgenre .edit-container .dialog-buttons button.update-no, #editsubgenre .delete-container .dialog-buttons button.delete-no, #editsubgenre .delete-container .dialog-buttons button.update-no, #deletesubgenre .edit-container .dialog-buttons button.delete-no, #deletesubgenre .edit-container .dialog-buttons button.update-no, #deletesubgenre .delete-container .dialog-buttons button.delete-no, #deletesubgenre .delete-container .dialog-buttons button.update-no, #editpublisher .edit-container .dialog-buttons button.delete-no, #editpublisher .edit-container .dialog-buttons button.update-no, #editpublisher .delete-container .dialog-buttons button.delete-no, #editpublisher .delete-container .dialog-buttons button.update-no, #deletepublisher .edit-container .dialog-buttons button.delete-no, #deletepublisher .edit-container .dialog-buttons button.update-no, #deletepublisher .delete-container .dialog-buttons button.delete-no, #deletepublisher .delete-container .dialog-buttons button.update-no, #editbook .edit-container .dialog-buttons button.delete-no, #editbook .edit-container .dialog-buttons button.update-no, #editbook .delete-container .dialog-buttons button.delete-no, #editbook .delete-container .dialog-buttons button.update-no, #deletebook .edit-container .dialog-buttons button.delete-no, #deletebook .edit-container .dialog-buttons button.update-no, #deletebook .delete-container .dialog-buttons button.delete-no, #deletebook .delete-container .dialog-buttons button.update-no, #deleteorder .edit-container .dialog-buttons button.delete-no, #deleteorder .edit-container .dialog-buttons button.update-no, #deleteorder .delete-container .dialog-buttons button.delete-no, #deleteorder .delete-container .dialog-buttons button.update-no {
+  width: 125px;
+  background: #ddd;
+  box-shadow: none;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #333;
+  border: none;
+}
+#editcard .edit-container .dialog-buttons button.delete-no:hover, #editcard .edit-container .dialog-buttons button.update-no:hover, #editcard .delete-container .dialog-buttons button.delete-no:hover, #editcard .delete-container .dialog-buttons button.update-no:hover, #deletecard .edit-container .dialog-buttons button.delete-no:hover, #deletecard .edit-container .dialog-buttons button.update-no:hover, #deletecard .delete-container .dialog-buttons button.delete-no:hover, #deletecard .delete-container .dialog-buttons button.update-no:hover, #edituser .edit-container .dialog-buttons button.delete-no:hover, #edituser .edit-container .dialog-buttons button.update-no:hover, #edituser .delete-container .dialog-buttons button.delete-no:hover, #edituser .delete-container .dialog-buttons button.update-no:hover, #deleteuser .edit-container .dialog-buttons button.delete-no:hover, #deleteuser .edit-container .dialog-buttons button.update-no:hover, #deleteuser .delete-container .dialog-buttons button.delete-no:hover, #deleteuser .delete-container .dialog-buttons button.update-no:hover, #editgenre .edit-container .dialog-buttons button.delete-no:hover, #editgenre .edit-container .dialog-buttons button.update-no:hover, #editgenre .delete-container .dialog-buttons button.delete-no:hover, #editgenre .delete-container .dialog-buttons button.update-no:hover, #deletegenre .edit-container .dialog-buttons button.delete-no:hover, #deletegenre .edit-container .dialog-buttons button.update-no:hover, #deletegenre .delete-container .dialog-buttons button.delete-no:hover, #deletegenre .delete-container .dialog-buttons button.update-no:hover, #editsubgenre .edit-container .dialog-buttons button.delete-no:hover, #editsubgenre .edit-container .dialog-buttons button.update-no:hover, #editsubgenre .delete-container .dialog-buttons button.delete-no:hover, #editsubgenre .delete-container .dialog-buttons button.update-no:hover, #deletesubgenre .edit-container .dialog-buttons button.delete-no:hover, #deletesubgenre .edit-container .dialog-buttons button.update-no:hover, #deletesubgenre .delete-container .dialog-buttons button.delete-no:hover, #deletesubgenre .delete-container .dialog-buttons button.update-no:hover, #editpublisher .edit-container .dialog-buttons button.delete-no:hover, #editpublisher .edit-container .dialog-buttons button.update-no:hover, #editpublisher .delete-container .dialog-buttons button.delete-no:hover, #editpublisher .delete-container .dialog-buttons button.update-no:hover, #deletepublisher .edit-container .dialog-buttons button.delete-no:hover, #deletepublisher .edit-container .dialog-buttons button.update-no:hover, #deletepublisher .delete-container .dialog-buttons button.delete-no:hover, #deletepublisher .delete-container .dialog-buttons button.update-no:hover, #editbook .edit-container .dialog-buttons button.delete-no:hover, #editbook .edit-container .dialog-buttons button.update-no:hover, #editbook .delete-container .dialog-buttons button.delete-no:hover, #editbook .delete-container .dialog-buttons button.update-no:hover, #deletebook .edit-container .dialog-buttons button.delete-no:hover, #deletebook .edit-container .dialog-buttons button.update-no:hover, #deletebook .delete-container .dialog-buttons button.delete-no:hover, #deletebook .delete-container .dialog-buttons button.update-no:hover, #deleteorder .edit-container .dialog-buttons button.delete-no:hover, #deleteorder .edit-container .dialog-buttons button.update-no:hover, #deleteorder .delete-container .dialog-buttons button.delete-no:hover, #deleteorder .delete-container .dialog-buttons button.update-no:hover {
+  background: #aeaeae;
+}
+#editcard .edit-container .dialog-buttons button.update-yes, #editcard .delete-container .dialog-buttons button.update-yes, #deletecard .edit-container .dialog-buttons button.update-yes, #deletecard .delete-container .dialog-buttons button.update-yes, #edituser .edit-container .dialog-buttons button.update-yes, #edituser .delete-container .dialog-buttons button.update-yes, #deleteuser .edit-container .dialog-buttons button.update-yes, #deleteuser .delete-container .dialog-buttons button.update-yes, #editgenre .edit-container .dialog-buttons button.update-yes, #editgenre .delete-container .dialog-buttons button.update-yes, #deletegenre .edit-container .dialog-buttons button.update-yes, #deletegenre .delete-container .dialog-buttons button.update-yes, #editsubgenre .edit-container .dialog-buttons button.update-yes, #editsubgenre .delete-container .dialog-buttons button.update-yes, #deletesubgenre .edit-container .dialog-buttons button.update-yes, #deletesubgenre .delete-container .dialog-buttons button.update-yes, #editpublisher .edit-container .dialog-buttons button.update-yes, #editpublisher .delete-container .dialog-buttons button.update-yes, #deletepublisher .edit-container .dialog-buttons button.update-yes, #deletepublisher .delete-container .dialog-buttons button.update-yes, #editbook .edit-container .dialog-buttons button.update-yes, #editbook .delete-container .dialog-buttons button.update-yes, #deletebook .edit-container .dialog-buttons button.update-yes, #deletebook .delete-container .dialog-buttons button.update-yes, #deleteorder .edit-container .dialog-buttons button.update-yes, #deleteorder .delete-container .dialog-buttons button.update-yes {
+  display: inline-block;
+  width: 49% !important;
+  float: left;
+  color: white;
+}
+#editcard .edit-container .dialog-buttons button.update-no, #editcard .delete-container .dialog-buttons button.update-no, #deletecard .edit-container .dialog-buttons button.update-no, #deletecard .delete-container .dialog-buttons button.update-no, #edituser .edit-container .dialog-buttons button.update-no, #edituser .delete-container .dialog-buttons button.update-no, #deleteuser .edit-container .dialog-buttons button.update-no, #deleteuser .delete-container .dialog-buttons button.update-no, #editgenre .edit-container .dialog-buttons button.update-no, #editgenre .delete-container .dialog-buttons button.update-no, #deletegenre .edit-container .dialog-buttons button.update-no, #deletegenre .delete-container .dialog-buttons button.update-no, #editsubgenre .edit-container .dialog-buttons button.update-no, #editsubgenre .delete-container .dialog-buttons button.update-no, #deletesubgenre .edit-container .dialog-buttons button.update-no, #deletesubgenre .delete-container .dialog-buttons button.update-no, #editpublisher .edit-container .dialog-buttons button.update-no, #editpublisher .delete-container .dialog-buttons button.update-no, #deletepublisher .edit-container .dialog-buttons button.update-no, #deletepublisher .delete-container .dialog-buttons button.update-no, #editbook .edit-container .dialog-buttons button.update-no, #editbook .delete-container .dialog-buttons button.update-no, #deletebook .edit-container .dialog-buttons button.update-no, #deletebook .delete-container .dialog-buttons button.update-no, #deleteorder .edit-container .dialog-buttons button.update-no, #deleteorder .delete-container .dialog-buttons button.update-no {
+  display: inline-block;
+  width: 49% !important;
+  float: left;
+  margin-left: 2%;
+}
+#editcard .edit-container .close, #editcard .delete-container .close, #deletecard .edit-container .close, #deletecard .delete-container .close, #edituser .edit-container .close, #edituser .delete-container .close, #deleteuser .edit-container .close, #deleteuser .delete-container .close, #editgenre .edit-container .close, #editgenre .delete-container .close, #deletegenre .edit-container .close, #deletegenre .delete-container .close, #editsubgenre .edit-container .close, #editsubgenre .delete-container .close, #deletesubgenre .edit-container .close, #deletesubgenre .delete-container .close, #editpublisher .edit-container .close, #editpublisher .delete-container .close, #deletepublisher .edit-container .close, #deletepublisher .delete-container .close, #editbook .edit-container .close, #editbook .delete-container .close, #deletebook .edit-container .close, #deletebook .delete-container .close, #deleteorder .edit-container .close, #deleteorder .delete-container .close {
+  padding: 15px 0 10px 10px;
+  font-size: 3rem;
+}
+
+.affix + .container-fluid {
+  padding-top: 58px;
+}
+
+nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 998;
+  animation: affixFadeIn 0.3s ease-in;
+  -webkit-animation: affixFadeIn 0.3s ease-in;
+  -webkit-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.75);
+  background: #6093CA;
+}
+nav.affix .navbar-toggle .icon-bar {
+  background: white !important;
+}
+nav.affix .navbar-brand a {
+  color: white;
+}
+nav.affix .navbar-nav > li > a {
+  color: white;
+}
+nav.affix .navbar-nav > li > a:hover {
+  background: white;
+  color: #6093CA;
+}
+nav.affix .navbar-nav > .open > a:focus, nav.affix .navbar-nav > .open > a:hover {
+  background: white;
+  color: #6093CA;
+}
+nav.affix .navbar-nav .dropdown-menu {
+  background: #6093CA;
+}
+nav.affix .navbar-nav .dropdown-menu > li > a {
+  color: white;
+}
+nav.affix .navbar-nav .dropdown-menu > li > a:hover {
+  color: white;
+  background: #3b6797;
+}
+nav.affix .navbar-nav .dropdown-menu .dropdown-submenu:hover > a:after {
+  border-left-color: white;
+}
+nav.affix .navbar-nav .dropdown-menu .dropdown-submenu > a:after {
+  border-left-color: white;
+}
+
+@keyframes affixFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes affixFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.navbar-default {
+  background: white;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 60px;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+  background: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #6093CA !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle.focus, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle.active, .navbar-default .navbar-toggle:hover {
+  background: transparent;
+}
+.navbar-default .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px 0 20px 30px;
+}
+.navbar-default .navbar-brand a {
+  color: #6093CA;
+}
+.navbar-default .navbar-brand .collapsed-content {
+  display: none;
+}
+.navbar-default .navbar-collapse {
+  text-align: center;
+}
+.navbar-default .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar-default .navbar-nav > li {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #6093CA;
+  padding: 20px 30px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background: #6093CA;
+  color: white;
+}
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background: #6093CA;
+  color: white;
+}
+.navbar-default .navbar-nav .dropdown-menu {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+.navbar-default .navbar-nav .dropdown-menu > li > a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #6093CA;
+  padding: 10px 20px;
+}
+.navbar-default .navbar-nav .dropdown-menu > li > a:hover {
+  color: #6093CA;
+}
+.navbar-default .navbar-nav .dropdown-menu .dropdown-submenu {
+  position: relative;
+}
+.navbar-default .navbar-nav .dropdown-menu .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin: 0;
+}
+.navbar-default .navbar-nav .dropdown-menu .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.navbar-default .navbar-nav .dropdown-menu .dropdown-submenu:hover > a:after {
+  border-left-color: #6093CA;
+}
+.navbar-default .navbar-nav .dropdown-menu .dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #6093CA;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+@media only screen and (max-width: 769px) {
+  .head-cart, .head-mobile {
+    display: none;
+  }
+
+  .navbar-default {
+    border-top: 1px solid #ddd;
+    min-height: 50px;
+  }
+  .navbar-default .navbar-brand {
+    padding: 15px 0 15px 30px;
+  }
+  .navbar-default .navbar-brand .brand {
+    display: none;
+  }
+  .navbar-default .navbar-brand .collapsed-content {
+    display: block;
+  }
+  .navbar-default .navbar-brand .collapsed-content ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .navbar-default .navbar-brand .collapsed-content ul > li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .navbar-default .navbar-brand .collapsed-content ul > li > a {
+    color: #6093CA;
+  }
+  .navbar-default .navbar-brand .collapsed-content ul > li > a .fa {
+    padding-right: 5px;
+  }
+  .navbar-default .navbar-collapse {
+    text-align: left !important;
+  }
+  .navbar-default .navbar-nav {
+    display: block !important;
+    margin: 0 -15px;
+  }
+  .navbar-default .navbar-nav > li {
+    border-bottom: 1px solid #ddd;
+  }
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px 0 15px 30px;
+  }
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: #6093CA !important;
+    padding-left: 30px;
+  }
+  .navbar-default .navbar-nav .dropdown-menu > li > a:hover {
+    color: #6093CA !important;
+  }
+
+  nav.affix .navbar-nav .dropdown-menu > li > a {
+    color: white !important;
+  }
+  nav.affix .navbar-nav .dropdown-menu > li > a:hover {
+    color: white !important;
+  }
+}
+html {
+  background: url(../images/back.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  background: transparent;
+}
+
+.intro {
+  height: 71vh;
+  background: transparent;
+  text-align: center;
+}
+.intro .content {
+  width: 70%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  background: transparent;
+  text-align: left;
+}
+.intro .content h2 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 6.5rem;
+  margin-bottom: 0;
+}
+.intro .content h3 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 2.75rem;
+  margin-top: 0;
+}
+.intro .content a {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+  background: #6093CA;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border: 1px solid #6093CA;
+  -moz-transition: background 0.4s linear 0s;
+  -webkit-transition: background 0.4s linear 0s;
+  -o-transition: background 0.4s linear 0s;
+  transition: background 0.4s linear 0s;
+}
+.intro .content a:hover {
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid white;
+}
+
+.allbooks, .subbooks {
+  background: #f1f1f1 !important;
+  text-align: center;
+}
+
+.books, .allbooks, .subbooks {
+  overflow: hidden;
+  background: white;
+  padding: 50px 0;
+}
+.books h2, .allbooks h2, .subbooks h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+.books .browse, .allbooks .browse, .subbooks .browse {
+  margin-top: 50px;
+}
+.books .browse .book, .allbooks .browse .book, .subbooks .browse .book {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+.books .browse .book .image, .allbooks .browse .book .image, .subbooks .browse .book .image {
+  padding: 20px;
+}
+.books .browse .book .image img, .allbooks .browse .book .image img, .subbooks .browse .book .image img {
+  margin: 0 auto;
+  padding: 3px;
+  background: white;
+  border: 1px solid #ddd;
+  height: 185px;
+}
+.books .browse .book .details, .allbooks .browse .book .details, .subbooks .browse .book .details {
+  margin-top: 20px;
+  min-height: 80px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.books .browse .book .details .book-title, .allbooks .browse .book .details .book-title, .subbooks .browse .book .details .book-title {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #6093CA;
+  min-height: 90px;
+}
+.books .browse .book .details .price, .allbooks .browse .book .details .price, .subbooks .browse .book .details .price {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: #333;
+}
+.books .browse .book .add-to, .allbooks .browse .book .add-to, .subbooks .browse .book .add-to {
+  margin: 20px 0 0 0;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  background: #6093CA;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border: none;
+  -moz-transition: background 0.4s linear 0s;
+  -webkit-transition: background 0.4s linear 0s;
+  -o-transition: background 0.4s linear 0s;
+  transition: background 0.4s linear 0s;
+}
+.books .browse .book .add-to .fa, .allbooks .browse .book .add-to .fa, .subbooks .browse .book .add-to .fa {
+  padding-right: 8px;
+}
+.books .browse .book .add-to:hover, .allbooks .browse .book .add-to:hover, .subbooks .browse .book .add-to:hover {
+  background: #3b6797;
+  text-decoration: none;
+}
+
+.admin {
+  padding: 60px 0;
+  background: #f7f7f7;
+}
+.admin #admin-content .a-error {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.admin #admin-content .a-error b {
+  color: red;
+}
+.admin #admin-content .a-error a {
+  font-weight: bold;
+}
+.admin #admin-content #admin-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  border-top: 1px solid #6093CA;
+  border-left: 1px solid #6093CA;
+  border-right: 1px solid #6093CA;
+}
+.admin #admin-content #admin-menu li {
+  border-bottom: 1px solid #6093CA;
+}
+.admin #admin-content #admin-menu li a {
+  display: block;
+  padding: 12px 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #6093CA;
+  text-transform: uppercase;
+}
+.admin #admin-content #admin-menu li a .fa {
+  width: 30px;
+}
+.admin #admin-content #admin-menu li a:hover {
+  text-decoration: none;
+  background: #6093CA;
+  color: white;
+}
+.admin #admin-content #admin-menu li a.active {
+  background: #f1f1f1;
+  color: #333;
+}
+.admin #admin-content #admin-menu li a:focus {
+  text-decoration: none;
+}
+.admin #admin-content #admin-menu li.head {
+  text-transform: uppercase;
+  padding: 15px 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  background: #6093CA;
+  margin: 0;
+}
+.admin #admin-content .content {
+  border-radius: 3px;
+  display: none;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #6093CA;
+}
+.admin #admin-content .content h2 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  display: block;
+  background: #6093CA;
+  padding: 20px 0;
+  color: white;
+}
+.admin #admin-content .content form .form-group {
+  margin: 20px 0 0 0;
+}
+.admin #admin-content .content form .form-group label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.admin #admin-content .content form .form-group input.form-control, .admin #admin-content .content form .form-group select.form-control {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  box-shadow: none;
+  padding: 12px;
+  height: 40px;
+  border-radius: 3px;
+}
+.admin #admin-content .content form .form-group textarea.form-control {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  box-shadow: none;
+  padding: 12px;
+  border-radius: 3px;
+  resize: none;
+}
+.admin #admin-content .content form .form-group #countleft {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: red;
+}
+.admin #admin-content .content form .form-group input[type=file] {
+  padding: 8px 12px !important;
+}
+.admin #admin-content .content form .form-group select {
+  padding: 0 12px !important;
+}
+.admin #admin-content .content form .form-group option {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.admin #admin-content .content form button {
+  width: 100%;
+  margin: 10px 0;
+  background: #6093CA;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 40px;
+  border: 1px solid #6093CA;
+  border-radius: 3px;
+}
+.admin #admin-content .content form button:hover {
+  border-color: #333;
+  background: white;
+  color: #333;
+}
+.admin #admin-content .content .table-responsive table.admin-table {
+  margin: 0;
+}
+.admin #admin-content .content .table-responsive table.admin-table thead {
+  border: none;
+  margin: 0;
+}
+.admin #admin-content .content .table-responsive table.admin-table tbody {
+  border: none;
+}
+.admin #admin-content .content .table-responsive table.admin-table th, .admin #admin-content .content .table-responsive table.admin-table td {
+  width: 30%;
+  padding: 0 20px;
+  border-color: #f1f1f1;
+  line-height: 30px;
+}
+.admin #admin-content .content .table-responsive table.admin-table th {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.admin #admin-content .content .table-responsive table.admin-table td {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+.admin #admin-content .content .table-responsive table.admin-table td button {
+  background: none;
+  border: none;
+  margin: 0;
+  color: #333;
+  height: 20px;
+  text-align: left;
+}
+.admin #admin-content .content .table-responsive .table-striped > tbody > tr:nth-child(odd) > th {
+  background: #f1f1f1;
+}
+.admin #admin-content .content .table-responsive .table-striped > tbody > tr:nth-child(odd) > td {
+  background: #f1f1f1;
+}
+.admin #admin-content .content .table-mobile {
+  display: none;
+}
+.admin #admin-content .content .table-mobile table.admin-table {
+  margin: 0 0 0 0;
+}
+.admin #admin-content .content .table-mobile table.admin-table th, .admin #admin-content .content .table-mobile table.admin-table td {
+  padding: 0 30px;
+  border-color: #f1f1f1;
+  line-height: 45px;
+}
+.admin #admin-content .content .table-mobile table.admin-table th h4, .admin #admin-content .content .table-mobile table.admin-table td h4 {
+  display: inline;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin: 0;
+}
+.admin #admin-content .content .table-mobile table.admin-table th h4.title, .admin #admin-content .content .table-mobile table.admin-table td h4.title {
+  color: #333;
+}
+.admin #admin-content .content .table-mobile table.admin-table th p, .admin #admin-content .content .table-mobile table.admin-table td p {
+  display: inline;
+  float: right !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.6rem;
+}
+.admin #admin-content .content .table-mobile table.admin-table th p.title, .admin #admin-content .content .table-mobile table.admin-table td p.title {
+  color: #333;
+}
+.admin #admin-content .content .table-mobile table.admin-table th form, .admin #admin-content .content .table-mobile table.admin-table td form {
+  display: inline;
+}
+.admin #admin-content .content .table-mobile table.admin-table th button, .admin #admin-content .content .table-mobile table.admin-table td button {
+  width: 30px;
+  background: none;
+  border: none;
+  color: #333;
+  float: right !important;
+}
+.admin #admin-content .content .table-mobile table.admin-table th {
+  background: #f1f1f1;
+}
+.admin #admin-content .content.active {
+  display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .admin #admin-content .content .table-responsive {
+    display: none;
+  }
+  .admin #admin-content .content .table-mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .admin #admin-content .content {
+    margin-top: 20px;
+  }
+}
+.cart {
+  overflow: hidden;
+  background: #f1f1f1;
+  padding: 50px 0;
+}
+.cart h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.cart h2:after {
+  content: "";
+  background: #ddd;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 60px;
+}
+.cart h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.cart h3.none {
+  text-align: center;
+  padding: 50px 0;
+}
+.cart .items {
+  padding-top: 80px;
+}
+.cart .items .book {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.cart .items form {
+  display: inline;
+}
+.cart .items form button {
+  color: #337ac3;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.cart .items form button.remove {
+  font-weight: bold;
+}
+.cart .items .payment, .cart .items .payerror {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.cart .items .payerror {
+  color: red;
+}
+.cart .cost {
+  padding-top: 50px;
+}
+.cart .cost p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.cart .cost p.total {
+  margin-top: 20px;
+}
+.cart .cost form {
+  display: inline;
+}
+.cart .cost button {
+  margin: 20px 10px 0 0;
+  background: #6093CA;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  height: 45px;
+  color: white;
+  padding: 0 20px;
+}
+.cart .cost button:hover {
+  background: #3d6086;
+}
+
+.contact {
+  padding: 50px 0;
+  background: #f7f7f7;
+}
+.contact h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.contact h2:after {
+  content: "";
+  background: #ddd;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 60px;
+}
+.contact h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact form {
+  margin-top: 80px;
+  background: #6093CA;
+  padding: 25px 50px;
+  color: white;
+}
+.contact form .input-group-addon {
+  border-radius: 0;
+  background: white;
+  color: #6093CA;
+  box-shadow: none;
+  border: none;
+  border-right: 1px solid #6093CA;
+}
+.contact form .input-group-addon .fa {
+  width: 20px;
+}
+.contact form .form-control {
+  border-radius: 0;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border: none;
+  box-shadow: none;
+}
+.contact form select.form-control, .contact form input.form-control {
+  height: 40px;
+}
+.contact form select.form-control option, .contact form input.form-control option {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.contact form textarea {
+  resize: none;
+  padding: 10px 0 0 16px;
+}
+.contact form #countleft {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.contact form button {
+  margin-top: 20px;
+  width: 100%;
+  background: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #6093CA;
+  height: 45px;
+  color: #6093CA;
+}
+.contact form button:hover {
+  background: #6093CA;
+  border-color: white;
+  color: white;
+  -moz-transition: background 0.4s linear 0s, color 0.4s linear 0s;
+  -webkit-transition: background 0.4s linear 0s, color 0.4s linear 0s;
+  -o-transition: background 0.4s linear 0s, color 0.4s linear 0s;
+  transition: background 0.4s linear 0s, color 0.4s linear 0s;
+}
+
+.title {
+  overflow: hidden;
+  background: rgba(96, 147, 202, 0.7);
+  padding: 50px 0;
+  color: white;
+}
+.title h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+.title p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.thisbook {
+  overflow: hidden;
+  background: white;
+}
+.thisbook .book {
+  text-align: center;
+  display: block;
+}
+.thisbook .book .image {
+  padding: 50px 0;
+  display: inline-block;
+}
+.thisbook .book .image img {
+  height: 300px;
+  border: 1px solid #ddd;
+  padding: 3px;
+  background: white;
+}
+.thisbook .book .details {
+  padding: 50px 0;
+  background: #f1f1f1;
+}
+.thisbook .book .details h3 {
+  margin: 0 auto 25px auto;
+  width: 75%;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+.thisbook .book .details p {
+  width: 75%;
+  margin: 25px auto 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.6rem;
+}
+.thisbook .book .details .price, .thisbook .book .details .author {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.thisbook .book .details .add-to {
+  display: block;
+  margin: 20px auto 0 12.5%;
+  width: 175px;
+  padding: 15px 25px;
+  color: white;
+  background: #6093CA;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border: none;
+  -moz-transition: background 0.4s linear 0s;
+  -webkit-transition: background 0.4s linear 0s;
+  -o-transition: background 0.4s linear 0s;
+  transition: background 0.4s linear 0s;
+}
+.thisbook .book .details .add-to .fa {
+  padding-right: 8px;
+}
+.thisbook .book .details .add-to:hover {
+  background: #3b6797;
+  text-decoration: none;
+}
+
+.about {
+  padding: 50px 0;
+  background: #f7f7f7;
+}
+.about h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.about h2:after {
+  content: "";
+  background: #ddd;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 60px;
+}
+.about .content {
+  margin-top: 80px;
+  background: #6093CA;
+  color: white;
+  padding: 25px;
+}
+.about .content h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about .content p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+footer {
+  background: #6093CA;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.error-404 {
+  height: 100vh;
+  background: #6093CA;
+}
+.error-404 .content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+}
+.error-404 .content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.error-404 .content p {
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.error-404 .content a {
+  margin: 50px 0 0 0;
+  display: inline-block;
+  background: white;
+  color: #6093CA;
+  padding: 15px 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid white;
+  -moz-transition: background 0.4s linear 0s;
+  -webkit-transition: background 0.4s linear 0s;
+  -o-transition: background 0.4s linear 0s;
+  transition: background 0.4s linear 0s;
+}
+.error-404 .content a:hover {
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}
+
+button:focus, button.focus, button:active, button.active, a:focus, a.focus, a:active, a.active {
+  outline: none;
+}

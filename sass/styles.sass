@@ -1,0 +1,56 @@
+$blue: #6093CA
+$content: 'Roboto', sans-serif
+@import partials/head
+@import partials/register
+@import partials/login
+@import partials/account
+@import partials/nav
+@import partials/index
+@import partials/admin
+@import partials/cart
+@import partials/contact
+@import partials/thisbook
+@import partials/about
+@import partials/footer
+
+.error-404
+  height: 100vh
+  background: $blue
+  .content
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+    color: white
+    text-align: center
+    h2
+      font-family: 'Open Sans', sans-serif
+      font-size: 5rem
+      font-weight: bold
+    p
+      margin-top: 25px
+      font-family: 'Roboto', sans-serif
+      font-weight: 300
+      font-size: 2rem
+    a
+      margin: 50px 0 0 0
+      display: inline-block
+      background: white
+      color: $blue
+      padding: 15px 60px
+      font-family: 'Open Sans', sans-serif
+      font-size: 2rem
+      font-weight: bold
+      border: 1px solid white
+      -moz-transition: background 0.4s linear 0s
+      -webkit-transition: background 0.4s linear 0s
+      -o-transition: background 0.4s linear 0s
+      transition: background 0.4s linear 0s
+      &:hover
+        text-decoration: none
+        background: transparent
+        color: white
+
+button:focus, button.focus, button:active, button.active, a:focus, a.focus, a:active, a.active
+  outline: none
+
+

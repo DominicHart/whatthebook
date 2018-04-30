@@ -1,0 +1,185 @@
+.affix + .container-fluid
+  padding-top: 58px
+nav.affix
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 998
+  animation: affixFadeIn 0.3s ease-in
+  -webkit-animation: affixFadeIn 0.3s ease-in
+  -webkit-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.75)
+  -moz-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.75)
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.75)
+  background: $blue
+  .navbar-toggle
+    .icon-bar
+      background: white !important
+  .navbar-brand
+    a
+      color: white
+  .navbar-nav
+    >li
+      >a
+        color: white
+        &:hover
+          background: white
+          color: $blue
+    >.open
+      >a
+        &:focus, &:hover
+          background: white
+          color: $blue
+    .dropdown-menu
+      background: $blue
+      >li
+        >a
+          color: white
+          &:hover
+            color: white
+            background: #3b6797
+      .dropdown-submenu
+        &:hover
+          &>a:after
+            border-left-color: white
+        &>a:after
+          border-left-color: white
+@keyframes affixFadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+@-webkit-keyframes affixFadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+.navbar-default
+  background: white
+  border-radius: 0
+  border: none
+  margin-bottom: 0
+  min-height: 60px
+  .navbar-toggle
+    border: none
+    .icon-bar
+      background: $blue !important
+    background: transparent
+    &:focus, &.focus, &:active, &.active, &:hover
+      background: transparent
+  .navbar-brand
+    font-family: $content
+    font-weight: bold
+    padding: 20px 0 20px 30px
+    a
+      color: $blue
+    .collapsed-content
+      display: none
+  .navbar-collapse
+    text-align: center
+  .navbar-nav
+    display: inline-block
+    float: none
+    vertical-align: top
+    >li
+      font-family: $content
+      font-weight: bold
+      font-size: 1.8rem
+      >a
+        color: $blue
+        padding: 20px 30px
+        //text-transform: uppercase
+        &:hover
+          background: $blue
+          color: white
+    >.open
+      >a
+        &:focus, &:hover
+          background: $blue
+          color: white
+    .dropdown-menu
+      border: none
+      border-radius: 0
+      padding: 0
+      >li
+        >a
+          font-family: $content
+          font-weight: bold
+          font-size: 1.6rem
+          color: $blue
+          padding: 10px 20px
+          &:hover
+            color: $blue
+      .dropdown-submenu
+        position: relative
+        &>.dropdown-menu
+          top: 0
+          left: 100%
+          margin: 0
+        &:hover
+          &>.dropdown-menu
+            display: block
+          &>a:after
+            border-left-color: $blue
+        &>a:after
+          display: block
+          content: " "
+          float: right
+          width: 0
+          height: 0
+          border-color: transparent
+          border-style: solid
+          border-width: 5px 0 5px 5px
+          border-left-color: $blue
+          margin-top: 5px
+          margin-right: -10px
+@media only screen and (max-width: 769px)
+  .head-cart, .head-mobile
+    display: none
+  .navbar-default
+    border-top: 1px solid #ddd
+    min-height: 50px
+    .navbar-brand
+      padding: 15px 0 15px 30px
+      .brand
+        display: none
+      .collapsed-content
+        display: block
+        ul
+          padding: 0
+          margin: 0
+          list-style-type: none
+          >li
+            display: inline-block
+            margin-right: 30px
+            >a
+              color: $blue
+              .fa
+                padding-right: 5px
+    .navbar-collapse
+      text-align: left !important
+    .navbar-nav
+      display: block !important
+      margin: 0 -15px
+      >li
+        border-bottom: 1px solid #ddd
+        >a
+          padding: 15px 0 15px 30px
+      .dropdown-menu
+        >li
+          >a
+            color: $blue !important
+            padding-left: 30px
+            &:hover
+              color: $blue !important
+  nav.affix
+    .navbar-nav
+      .dropdown-menu
+        >li
+          >a
+            color: white !important
+            &:hover
+              color: white !important
+
+
+
+

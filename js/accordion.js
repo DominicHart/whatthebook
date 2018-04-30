@@ -1,0 +1,73 @@
+function buttontoggle() {
+    $(".coll-toggle").removeClass('active');
+}
+function collhide() {
+    $(".content").removeClass('active');
+}
+$("#btn-add-users").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-add-users").addClass('active');
+    $("#add-users").addClass('active');
+});
+$("#btn-man-users").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-man-users").addClass('active');
+    $("#man-users").addClass('active');
+});
+$("#btn-add-genre").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-add-genre").addClass('active');
+    $("#add-genre").addClass('active');
+});
+$("#btn-man-genre").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-man-genre").addClass('active');
+    $("#man-genres").addClass('active');
+});
+$("#btn-add-subgenre").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-add-subgenre").addClass('active');
+    $("#add-subgenre").addClass('active');
+});
+$("#btn-man-subgenre").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-man-subgenre").addClass('active');
+    $("#man-subgenres").addClass('active');
+});
+$("#btn-add-publisher").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-add-publisher").addClass('active');
+    $("#add-publisher").addClass('active');
+});
+$("#btn-man-publishers").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-man-publishers").addClass('active');
+    $("#man-publishers").addClass('active');
+});
+
+$("#btn-add-book").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-add-book").addClass('active');
+    $("#add-book").addClass('active');
+});
+$("#btn-man-books").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-man-books").addClass('active');
+    $("#man-books").addClass('active');
+});
+$("#btn-man-orders").click(function(){
+    buttontoggle();
+    collhide();
+    $("#btn-man-orders").addClass('active');
+    $("#man-orders").addClass('active');
+});

@@ -1,0 +1,72 @@
+.login
+  overflow: hidden
+  height: 100vh
+  background: $blue
+  form
+    overflow: hidden
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+    margin: 0 auto
+    width: 30%
+    background: white
+    padding: 25px 50px
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7)
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7)
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7)
+    h2
+      margin: 0 0 20px 0
+      font-size: 5rem
+      font-family: $content
+      font-weight: 300
+      text-align: center
+    .icon-container
+      margin: 0 auto 20px auto
+      text-align: center
+      height: 90px
+      width: 90px
+      border-radius: 50%
+      border: 3px solid #333
+      .fa
+        position: relative
+        top: 50%
+        font-size: 5rem
+        transform: translateY(-50%)
+    .log-error
+      font-family: $content
+      font-size: 1.6rem
+      b
+        color: red
+      a
+        font-weight: bold
+    .account-no
+      font-family: $content
+      font-weight: 300
+      font-size: 1.6rem
+      text-align: center
+      margin: 15px 0 0 0
+    .form-control
+      height: 50px
+      font-family: $content
+      font-weight: 300
+      font-size: 1.6rem
+      border-radius: 0
+      background: #f1f1f1
+      padding-left: 20px
+      border: none
+      box-shadow: none
+      outline: none
+    button
+      height: 50px
+      width: 100%
+      background: $blue
+      border: none
+      text-transform: uppercase
+      color: white
+      font-family: $content
+      font-weight: 300
+      font-size: 1.6rem
+@media only screen and (max-width: 1366px)
+  .login
+    form
+      width: 35%

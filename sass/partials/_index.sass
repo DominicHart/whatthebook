@@ -1,0 +1,114 @@
+html
+  background: url(../images/back.jpg) center center no-repeat
+  background-attachment: fixed
+  background-size: cover
+body
+  background: transparent
+.intro
+  height: 71vh
+  background: transparent
+  text-align: center
+  .content
+    width: 70%
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+    margin: 0 auto
+    background: transparent
+    text-align: left
+    h2
+      font-family: 'Open Sans', sans-serif
+      text-transform: uppercase
+      color: white
+      font-weight: bold
+      font-size: 6.5rem
+      margin-bottom: 0
+    h3
+      font-family: 'Open Sans', sans-serif
+      color: white
+      font-weight: bold
+      font-size: 2.75rem
+      margin-top: 0
+    a
+      margin-top: 20px
+      display: inline-block
+      padding: 20px 30px
+      color: white
+      background: $blue
+      font-family: 'Open Sans', sans-serif
+      font-weight: bold
+      text-transform: uppercase
+      font-size: 1.6rem
+      border: 1px solid $blue
+      -moz-transition: background 0.4s linear 0s
+      -webkit-transition: background 0.4s linear 0s
+      -o-transition: background 0.4s linear 0s
+      transition: background 0.4s linear 0s
+      &:hover
+        text-decoration: none
+        background: transparent
+        border: 1px solid white
+.allbooks, .subbooks
+  background: #f1f1f1 !important
+  text-align: center
+.books, .allbooks, .subbooks
+  overflow: hidden
+  background: white
+  padding: 50px 0
+  h2
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+    font-size: 3rem
+  .browse
+    margin-top: 50px
+    .book
+      margin: 0 0 50px 0
+      text-align: center
+      .image
+        padding: 20px
+        img
+          margin: 0 auto
+          padding: 3px
+          background: white
+          border: 1px solid #ddd
+          height: 185px
+      .details
+        margin-top: 20px
+        min-height: 80px
+        border-bottom: 1px solid #ddd
+        text-align: center
+        .book-title
+          display: block
+          font-family: $content
+          font-size: 1.8rem
+          font-weight: bold
+          color: $blue
+          min-height: 90px
+        .price
+          font-family: $content
+          font-size: 1.8rem
+          color: #333
+      .add-to
+        margin: 20px 0 0 0
+        display: inline-block
+        padding: 15px 25px
+        color: white
+        background: $blue
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+        text-transform: uppercase
+        font-size: 1.4rem
+        border: none
+        -moz-transition: background 0.4s linear 0s
+        -webkit-transition: background 0.4s linear 0s
+        -o-transition: background 0.4s linear 0s
+        transition: background 0.4s linear 0s
+        .fa
+          padding-right: 8px
+        &:hover
+          background: #3b6797
+          text-decoration: none
+@media only screen and (max-width: 1366px)
+

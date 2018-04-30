@@ -1,0 +1,257 @@
+.account
+  padding: 50px 0
+  background: #f7f7f7
+  h2
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+    font-size: 2.5rem
+    &:after
+      content: ""
+      background: #ddd
+      height: 1px
+      position: absolute
+      width: 100%
+      left: 0
+      top: 60px
+  .tabs
+    margin-top: 80px
+    .c-error
+      font-family: $content
+      font-size: 1.6rem
+      b
+        color: red
+      a
+        font-weight: bold
+    .nav-pills
+      >li
+        margin: 0
+        >a
+          border-radius: 0
+          padding: 10px 20px
+          margin: 0
+          font-family: 'Open Sans', sans-serif
+          font-weight: bold
+          font-size: 1.6rem
+          .fa
+            padding-right: 8px
+        &.active
+          a
+            background: $blue
+        &:hover
+          a
+            background: #3b6797
+            color: white
+    .tab-content
+      background: $blue
+      padding: 20px 40px
+      color: white
+      h3
+        font-family: 'Open Sans', sans-serif
+        font-size: 3rem
+        font-weight: bold
+      form
+        &.edit-card, &.delete-card
+          padding-bottom: 0
+        .form-control
+          border-radius: 0
+          height: 45px
+          box-shadow: none
+          background: white
+          font-size: 1.6rem
+          font-family: $content
+          font-weight: 300
+          border: none
+          color: black
+        .non-edit
+          background: #ddd
+        label
+          font-family: 'Open Sans', sans-serif
+          font-size: 1.6rem
+          font-weight: bold
+          &.expLabel
+            display: block
+          .fa
+            width: 27px
+        p
+          font-family: $content
+          font-size: 1.6rem
+        select
+          option
+            font-weight: 300
+        button.submit
+          margin-top: 20px
+          width: 100%
+          background: white
+          font-family: 'Open Sans', sans-serif
+          font-size: 1.6rem
+          font-weight: bold
+          text-transform: uppercase
+          border: 1px solid $blue
+          height: 45px
+          color: $blue
+          &:hover
+            background: $blue
+            border-color: white
+            color: white
+            -moz-transition: background 0.4s linear 0s, color 0.4s linear 0s
+            -webkit-transition: background 0.4s linear 0s, color 0.4s linear 0s
+            -o-transition: background 0.4s linear 0s, color 0.4s linear 0s
+            transition: background 0.4s linear 0s, color 0.4s linear 0s
+      .table
+        font-family: $content
+        font-weight: 300
+        background: white
+        color: black
+        margin-top: 15px
+        border-top: none
+        tr
+          border: 1px solid white
+          th
+            padding: 10px
+            font-family: 'Open Sans', sans-serif
+            font-size: 1.6rem
+            border-top: none
+          td
+            vertical-align: middle
+            padding: 10px
+            border-color: $blue
+            font-size: 1.4rem
+          button
+            border: none
+            background: transparent
+            color: black
+            padding: 0 5px 0 0
+            .fa
+              padding-right: 5px
+div.expiry
+  select.expiry
+    display: inline-block
+    width: 49% !important
+    float: left
+    &:nth-child(2n+1)
+      margin-left: 2%
+    margin-bottom: 10px
+#editcard, #deletecard, #edituser, #deleteuser, #editgenre, #deletegenre, #editsubgenre, #deletesubgenre, #editpublisher, #deletepublisher, #editbook, #deletebook, #deleteorder
+  position: fixed
+  left: 0
+  top: 0
+  padding: 0
+  margin: 0 auto
+  width: 100%
+  height: 100%
+  z-index: 999
+  background-color: rgba(0, 0, 0, 0.5)
+  .edit-container, .delete-container
+    overflow: hidden
+    width: 500px
+    position: relative
+    z-index: 999
+    top: 50%
+    transform: translateY(-50%)
+    margin: 0 auto
+    background: white
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75)
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75)
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.75)
+    h2
+      margin-top: 0
+    .dialog-header
+      overflow: hidden
+      border-bottom: 1px solid #ddd
+      padding: 0 30px 5px 30px
+      h3
+        color: #333
+        margin: 0
+        font-size: 2rem
+        float: left
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+        padding-top: 20px
+    .col-md-12
+      padding: 0
+    .col-md-6
+      padding: 0
+    div.second
+      padding-left: 10px
+    .dialog-content
+      clear: both
+      padding: 15px
+      border-bottom: 1px solid #ddd
+      text-align: center
+      p
+        color: #333
+        font-family: $content
+        font-weight: 300
+        font-size: 1.3rem
+        margin: 0
+      label
+        display: none
+      label.e-user
+        display: block
+        text-align: left !important
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+        font-size: 1.3rem
+      input.form-control, select.form-control
+        font-family: $content
+        font-size: 1.2rem
+        height: 30px
+        border-radius: 0
+        border: none
+        box-shadow: none
+        background: #f1f1f1
+        padding-left: 20px
+        color: black
+      textarea
+        resize: none
+        font-family: $content
+        font-size: 1.2rem
+        border-radius: 0
+        border: none
+        box-shadow: none
+        background: #f1f1f1
+        padding-left: 20px
+        color: black
+    .dialog-buttons
+      overflow: hidden
+      text-align: center
+      padding: 15px 30px
+      button.delete-yes, button.update-yes
+        width: 125px
+        background: $blue
+        height: 40px
+        font-family: $content
+        font-weight: bold
+        font-size: 1.3rem
+        border: none
+        color: white
+        box-shadow: none
+        &:hover
+          background: #3b6797
+      button.delete-no, button.update-no
+        width: 125px
+        background: #ddd
+        box-shadow: none
+        height: 40px
+        font-family: $content
+        font-weight: bold
+        font-size: 1.3rem
+        color: #333
+        border: none
+        &:hover
+          background: #aeaeae
+      button.update-yes
+        display: inline-block
+        width: 49% !important
+        float: left
+        color: white
+      button.update-no
+        display: inline-block
+        width: 49% !important
+        float: left
+        margin-left: 2%
+    .close
+      padding: 15px 0 10px 10px
+      font-size: 3rem

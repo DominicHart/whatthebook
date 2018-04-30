@@ -1,0 +1,74 @@
+.cart
+  overflow: hidden
+  background: #f1f1f1
+  padding: 50px 0
+  h2
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+    font-size: 2.5rem
+    &:after
+      content: ""
+      background: #ddd
+      height: 1px
+      position: absolute
+      width: 100%
+      left: 0
+      top: 60px
+  h3
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    //text-transform: uppercase
+    font-size: 2rem
+    &.none
+      text-align: center
+      padding: 50px 0
+  .items
+    padding-top: 80px
+    .book
+      font-family: $content
+      font-size: 1.6rem
+      font-weight: 300
+    form
+      display: inline
+      button
+        color: #337ac3
+        background: none
+        border: none
+        margin: 0
+        padding: 0
+        &.remove
+          font-weight: bold
+    .payment, .payerror
+      font-family: $content
+      text-align: center
+      font-weight: bold
+      font-size: 2rem
+    .payerror
+      color: red
+  .cost
+    padding-top: 50px
+    p
+      margin: 0
+      font-family: $content
+      font-size: 1.6rem
+      font-weight: 300
+      &.total
+        margin-top: 20px
+    form
+      display: inline
+    button
+      margin: 20px 10px 0 0
+      background: $blue
+      font-family: 'Open Sans', sans-serif
+      font-size: 1.6rem
+      font-weight: bold
+      text-transform: uppercase
+      border: none
+      height: 45px
+      color: white
+      padding: 0 20px
+      &:hover
+        background: #3d6086
+
